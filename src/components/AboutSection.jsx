@@ -1,7 +1,7 @@
 "use client";
 import React, { useRef } from 'react';
 import Image from "next/image";
-import Ganpat from "../assets/Ganpat.jpg";
+import ganpat from "../assets/ganpat.jpg";
 import { Code, Smartphone, Zap, Globe } from 'lucide-react';
 import { motion, useInView } from 'framer-motion';
 
@@ -50,7 +50,7 @@ const AboutSection = () => {
           >
 <div className="group relative w-full h-[600px] rounded-2xl overflow-hidden shadow-2xl transform hover:scale-105 transition-transform duration-300">
   <Image
-    src={Ganpat}
+    src={ganpat}
     alt="Ganpat"
     className="object-cover"
     fill

@@ -3,7 +3,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import Image from 'next/image';
 import { Github, Linkedin, Mail, Instagram } from 'lucide-react';
-import Ganpat1 from "../assets/Ganpat1.jpg";
+import ganpat1 from "../assets/ganpat1.jpg";
 
 
 const containerVariants = {
@@ -89,7 +89,7 @@ const HeroSection = ({ scrollToSection }) => {
                 <div className="w-full h-full rounded-full  p-2">
                   <div className="w-full h-full rounded-full overflow-hidden shadow-inner relative">
                     <Image
-                      src={Ganpat1}
+                      src={ganpat1}
                       alt="Ganpat1"
                       fill
                       className="object-cover transform-3d transition-shadow hover:transition-opacity"
