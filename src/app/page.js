@@ -6,7 +6,7 @@ import AboutSection from '../components/AboutSection';
 import SkillsSection from '../components/SkillsSection';
 import ProjectsSection from '../components/ProjectsSection';
 import ContactSection from '../components/ContactSection';
-import Report from '../components/Report'; 
+// import Report from '../components/Report'; 
 // import ContactForm from '@/components/ContactForm';
 
 const Page = () => {
@@ -46,7 +46,7 @@ const Page = () => {
       <AboutSection />
       <SkillsSection />
       <ProjectsSection />
-       <Report /> 
+       {/* <Report />  */}
       <ContactSection />
        {/* <ContactForm /> */}
     </div>
